@@ -1,5 +1,6 @@
 {
   "name": "@capacitor-community/wifi",
+  "packageManager": "yarn@4.2.2",
   "version": "0.0.1",
   "description": "Wifi Plugin for iOS, Android and Electron",
   "main": "dist/plugin.cjs.js",
@@ -26,10 +27,10 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.0",
-    "@capacitor/core": "^5.0.0",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
     "@capacitor/docgen": "0.0.17",
-    "@capacitor/ios": "^5.0.0",
+    "@capacitor/ios": "^6.1.2",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "~2.0.0",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -44,7 +45,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "^6.1.2"
   },
   "files": [
     "android/src/main/",

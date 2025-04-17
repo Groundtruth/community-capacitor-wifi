@@ -16,10 +16,10 @@
 ### getIP()
 
 ```typescript
-getIP() => Promise<{ ip: string | null; }>
+getIP() => any
 ```
 
-**Returns:** <code>Promise&lt;{ ip: string | null; }&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -27,10 +27,10 @@ getIP() => Promise<{ ip: string | null; }>
 ### getSSID()
 
 ```typescript
-getSSID() => Promise<{ ssid: string | null; }>
+getSSID() => any
 ```
 
-**Returns:** <code>Promise&lt;{ ssid: string | null; }&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -38,14 +38,14 @@ getSSID() => Promise<{ ssid: string | null; }>
 ### connect(...)
 
 ```typescript
-connect(options: { ssid: string; password?: string; joinOnce?: boolean; isHiddenSsid?: boolean; }) => Promise<{ ssid: string | null; }>
+connect(options: { ssid: string; password?: string; joinOnce?: boolean; isHiddenSsid?: boolean; }) => any
 ```
 
 | Param         | Type                                                                                          |
 | ------------- | --------------------------------------------------------------------------------------------- |
 | **`options`** | <code>{ ssid: string; password?: string; joinOnce?: boolean; isHiddenSsid?: boolean; }</code> |
 
-**Returns:** <code>Promise&lt;{ ssid: string | null; }&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -53,14 +53,14 @@ connect(options: { ssid: string; password?: string; joinOnce?: boolean; isHidden
 ### connectPrefix(...)
 
 ```typescript
-connectPrefix(options: { ssid: string; password?: string; joinOnce?: boolean; }) => Promise<{ ssid: string | null; }>
+connectPrefix(options: { ssid: string; password?: string; joinOnce?: boolean; }) => any
 ```
 
 | Param         | Type                                                                  |
 | ------------- | --------------------------------------------------------------------- |
 | **`options`** | <code>{ ssid: string; password?: string; joinOnce?: boolean; }</code> |
 
-**Returns:** <code>Promise&lt;{ ssid: string | null; }&gt;</code>
+**Returns:** <code>any</code>
 
 --------------------
 
@@ -68,8 +68,10 @@ connectPrefix(options: { ssid: string; password?: string; joinOnce?: boolean; })
 ### disconnect()
 
 ```typescript
-disconnect() => Promise<void>
+disconnect() => any
 ```
+
+**Returns:** <code>any</code>
 
 --------------------
 
